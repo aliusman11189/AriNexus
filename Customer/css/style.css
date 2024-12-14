@@ -1,0 +1,15 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.main-content{
+    padding: 15px;
+}
+
+.navbar{position: sticky;top: 0px;}
+
+div > input{
+margin-bottom: 20px;
+}

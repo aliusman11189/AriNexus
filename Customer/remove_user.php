@@ -1,0 +1,1 @@
+<?php include('header.php'); $id = $_GET['id']; $sql = mysqli_query($con, "DELETE FROM `user` WHERE `id`='$id'");echo '<script>window.open(\'user.php\',\'_self\');</script>';  include('footer.php'); ?>
